@@ -30,7 +30,7 @@ The output shall look like that:
 
 ## Usage
 
-    curl -L https://… | tar xz
+    curl -L "https://github.com/thomas-mc-work/gopasser/archive/refs/heads/master.tar.gz" | tar xz
     cd gopasser-master
     pip install -r requirements.txt
     python3 main.py my.cnf.gp
